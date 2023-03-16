@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  width: 100vh;
+  height: 100vh;
+
+  background-image: url("./girl_hair_light_88175_1400x1050.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 30px;
+  z-index: 999;
+  background-color: black;
+}
+
+.logo {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: fantasy;
+}
+
+.navbar .navlink a {
+  color: white;
+}
+.navbar .navlink ul {
+  display: flex;
+  gap: 15px;
+}
+
+.para {
+  border: solid;
+  background-color: black;
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
+  color: white;
+  padding: 30px;
+  display: flex;
+  margin-bottom: 20%;
+  width: 400px;
+  border-top-right-radius: 110px;
+  border-bottom-right-radius: 110px;
+  border-bottom-left-radius: 110px;
+  position: absolute;
+  top: 556px;
+  left: 401px;
+}
+.paragraph {
+  font-family: fantasy;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 200px;
+  background-image: url(./flat-lay-assortment-with-make-up-products-black-background_23-2148301877.jpg);
+  background-size: 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.table {
+  margin: 20px auto;
+  width: 50%;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: black;
+  text-align: center;
+  font-family: cursive;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.thanking {
+  font-family: fantasy;
+  font-size: 25px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thanking p {
+  width: 400px;
+}
